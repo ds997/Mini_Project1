@@ -17,3 +17,29 @@ branch locally and push it to the server.This branch will contain the complete h
 will contain an abridged version. Other developers should now clone the central repository and create a tracking branch for
 develop.When using the git-flow extension library, executing git flow init on an existing repo will create the develop 
 branch
+
+## Feature Branches
+
+Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration.
+But, instead of branching off of master, feature branches use develop as their parent branch. When a feature is complete,
+it gets merged back into develop. Features should never interact directly with master.
+
+## Creating a feature branch
+
+Without the git-flow extensions:
+git checkout develop
+git checkout -b feature_branch
+
+When using the git-flow extension:
+git flow feature start feature_branch
+
+## Finishing a feature branch
+When you’re done with the development work on the feature, the next step is to merge the feature_branch into develop.
+
+Without the git-flow extensions:
+git checkout develop
+git merge feature_branch
+
+Using the git-flow extensions:
+git flow feature finish feature_branch
+Release Branches
