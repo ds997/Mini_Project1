@@ -31,3 +31,26 @@ This is the mode you use to type or **insert** text.
 | <kbd>i</kbd> | insert text **before** the cursor. | <kbd>I</kbd> | insert text at the **start** of the line. |
 | <kbd>a</kbd> | insert text **after** the cursor. | <kbd>A</kbd> | insert text at the **end** of the line. |
 | <kbd>o</kbd> | new line **below** the current line. | <kbd>O</kbd> | new line **above** the current line. |
+
+
+## Saving files
+
+* Saving changes in file
+
+Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
+
+![Image of write and quit in vi](https://github.com/ds997/miniproject1-601-ds/blob/master/resources/write-quit-vi.png)
+
+
+| Command | Description |
+| ------ | ----------- |
+| `:wq` or `ZZ` | Save the contents & quit vi |
+
+* Without saving changes
+
+Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`   
+
+| Command | Description |
+| ------ | ----------- |
+| `:q!` | Quit vi without saving |
+
