@@ -27,3 +27,17 @@ A branch is a parallel version of a repository. Each repository has one default 
 You can merge a branch into another branch using a pull request.
 
 ![git branch](https://user-images.githubusercontent.com/54865943/66273247-2d798380-e840-11e9-810b-2553875467d8.png)
+
+## Commit
+
+A commit is an individual change to a file (or set of files). Git assigns each commit a unique ID, called a SHA or hash.
+
+
+![git commit](https://user-images.githubusercontent.com/54865943/66273204-de335300-e83f-11e9-870c-2f8b37febd1f.png)
+
+## Merge
+
+Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+
+
+![git merge](https://user-images.githubusercontent.com/54865943/66273295-9660fb80-e840-11e9-982f-f64a988f14b6.png)
