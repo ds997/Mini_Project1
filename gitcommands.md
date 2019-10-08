@@ -41,3 +41,14 @@ Merge a pull request into the upstream branch when work is completed. Anyone wit
 
 
 ![git merge](https://user-images.githubusercontent.com/54865943/66273295-9660fb80-e840-11e9-982f-f64a988f14b6.png)
+
+## Checkout
+
+The checkout command lets you navigate between the branches created by git branch . Checking out a branch updates the files in the
+working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
+
+![git checkout](https://user-images.githubusercontent.com/54865943/66273372-3dde2e00-e841-11e9-8f57-47eed5ea8829.png)
+
+## Push
+
+ Git push is used to push commits made on your local branch to a remote repository.
