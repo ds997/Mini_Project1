@@ -81,3 +81,15 @@ remote handle you’ve specified.
 
 ![show](https://user-images.githubusercontent.com/54865943/66275744-b05b0800-e859-11e9-92a0-2d4d60560a87.png)
 
+## Status
+
+The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged,
+which haven't,and which files aren't being tracked by Git.
+
+![status](https://user-images.githubusercontent.com/54865943/66276255-4d6c6f80-e85f-11e9-92cc-51103a5c0d64.png)
+
+## Master Branch
+
+The main branch — the one where all changes eventually get merged back into, and is called master.
+
+
