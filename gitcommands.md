@@ -52,3 +52,5 @@ working directory to match the version stored in that branch, and it tells Git t
 ## Push
 
  Git push is used to push commits made on your local branch to a remote repository.
+
+![push](https://user-images.githubusercontent.com/54865943/66275761-d2548a80-e859-11e9-8c64-40a075394cdf.png)
