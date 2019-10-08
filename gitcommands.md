@@ -92,4 +92,6 @@ which haven't,and which files aren't being tracked by Git.
 
 The main branch — the one where all changes eventually get merged back into, and is called master.
 
+![master branch](https://user-images.githubusercontent.com/54865943/66276252-47768e80-e85f-11e9-93ec-e922c6a60e08.png)
+
 
