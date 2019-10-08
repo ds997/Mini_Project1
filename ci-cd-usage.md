@@ -17,9 +17,9 @@ Continuous Integration is a software development practice where members of a tea
 ### Here are five aspects of using Git, Docker, Automated Testing, and Continuous Integration that provides companies a competitive edge :
 
 
-**1. Faster Release Cycles:** Speeding up the build and deploy cycle allows teams to get new features into production quicker, and reduce the ime to market a product.
+**1. Faster Release Cycles:** Speeding up the build and deploy cycle allows teams to get new features into production quicker, and reduce the time to market a product.
 
-**2. Reduced Risk:** By releasing new updates or features continuously, the risk of bugs in production is also reduced dramtically.
+**2. Reduced Risk:** By releasing new updates or features continuously, the risk of bugs in production is also reduced dramatically.
 
 **3. Lower Costs:** Adopting a continuous development model lowers the costs by eliminating many of the fixed costs associated with building and testing changes to the application. For example, automated environment provisioning will reduce the costs associated with maintaining your own test infrastructure. By continuously committing your code, you’ll spend less time (and therefore money) on fixing bugs.
 
