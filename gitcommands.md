@@ -94,4 +94,15 @@ The main branch — the one where all changes eventually get merged back into, a
 
 ![master branch](https://user-images.githubusercontent.com/54865943/66276252-47768e80-e85f-11e9-93ec-e922c6a60e08.png)
 
+## Sources
+
+* https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+* https://help.github.com/en
+* https://git-scm.com/docs/git-pull
+* https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/
+
+# Contributer
+
+## Jasman Preet Singh-js2547
+
 
