@@ -62,3 +62,23 @@ For example: **divyanshuhome** is my home directory in the below screenshot.
 
 
 ![this is cd example](https://github.com/ds997/miniproject1-601-ds/blob/master/resources/cd.png)
+
+
+## 9. File paths in linux
+ 
+ A path is a unique location to a file or a folder in a file system of an OS.
+ A path to a file is a combination of / and alpha- numeric characters.
+ 
+ For example 
+ 
+ ![this is cd example](https://github.com/ds997/miniproject1-601-ds/blob/master/resources/cd4.png)
+ 
+ ## 10. Using the tab key to complete file paths
+ 
+ TAB is used to autocomplete commands, filenames or folder names.
+ For Example when typing a file or folder name clicking tab autocompletes the file or folder name.
+ 
+ ## 11. Using up and down arrow for history 
+ 
+ Through up and down arrown key user can span to history of commands
+ By up arrow the previous command you entered in the terminal shows up on the command line.
