@@ -1,0 +1,1 @@
+# A step by step guide to Git# Step 1: Create a GitHub account![Image](resources/git_guide1.png)![Image](resources/git_guide2.png)
