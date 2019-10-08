@@ -43,3 +43,10 @@ git merge feature_branch
 Using the git-flow extensions:
 git flow feature finish feature_branch
 Release Branches
+
+## Source
+* https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+# Contributer
+
+## Jasman Preet Singh-js2547
