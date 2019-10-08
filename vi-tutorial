@@ -76,3 +76,6 @@ To copy(Yank) or paste in vi use the following code:
 | `yy` | yank a line |
 | `yw` | yank word |
 | `y$` | yank to end of line |
+
+## Contributors
+**Divyanshu Sachdeva - ds997**
