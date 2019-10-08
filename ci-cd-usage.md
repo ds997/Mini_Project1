@@ -26,3 +26,11 @@ Continuous Integration is a software development practice where members of a tea
 **4. Higher Quality Products:** Continuous integration enables stronger collaboration between developers, meaning bugs are found and fixed faster earlier in the development process. Running automated regression and parallel tests will improve test coverage, ensuring your application is bug-free and works across a wider range of environments. Continuously delivering smaller updates to your software will make most changes (and bugs) undetectable to the end user, resulting in happier customers.
 
 **5. Better Business Advantage:** Moving to a continuous development model gives your team the flexibility to make alterations to your software on-the-go to meet new market trends and user needs. You’ll be able to meet rapidly changing demands and will turn your release process into a competitive advantage.
+
+## Source :
+
+[Git] (https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
+
+[CI & CD] (https://smartbear.com/learn/automated-testing/the-continuous-development-pipeline/ )
+
+[Docker ] (https://opensource.com/resources/what-docker)
