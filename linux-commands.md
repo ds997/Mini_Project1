@@ -82,3 +82,8 @@ For example: **divyanshuhome** is my home directory in the below screenshot.
  
  Through up and down arrown key user can span to history of commands
  By up arrow the previous command you entered in the terminal shows up on the command line.
+
+
+ ## Contributor
+ 
+ **Divyanshu Sachdeva - ds997**
