@@ -21,3 +21,9 @@ Repository.
 A fork is a copy of a repository that you manage. Forks let you make changes to a project without affecting the original repository.
 You can fetch updates from or submit changes to the original repository with pull requests.
 
+## Branch
+
+A branch is a parallel version of a repository. Each repository has one default branch, and can have multiple other branches.
+You can merge a branch into another branch using a pull request.
+
+![git branch](https://user-images.githubusercontent.com/54865943/66273247-2d798380-e840-11e9-810b-2553875467d8.png)
