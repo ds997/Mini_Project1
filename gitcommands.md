@@ -54,3 +54,16 @@ working directory to match the version stored in that branch, and it tells Git t
  Git push is used to push commits made on your local branch to a remote repository.
 
 ![push](https://user-images.githubusercontent.com/54865943/66275761-d2548a80-e859-11e9-8c64-40a075394cdf.png)
+
+## Pull
+
+Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent,interested
+parties can review the set of changes,discuss potential modifications, and even push follow-up commits if necessary.
+
+![pull](https://user-images.githubusercontent.com/54865943/66275772-edbf9580-e859-11e9-9e8c-0504996131fc.png)
+
+## Remote Add
+
+To add a new remote, use the git remote add command on the terminal, in the directory your repository. 
+
+![git add](https://user-images.githubusercontent.com/54865943/66276257-50fff680-e85f-11e9-8f49-d6945af3dc30.png)
