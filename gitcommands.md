@@ -67,3 +67,17 @@ parties can review the set of changes,discuss potential modifications, and even 
 To add a new remote, use the git remote add command on the terminal, in the directory your repository. 
 
 ![git add](https://user-images.githubusercontent.com/54865943/66276257-50fff680-e85f-11e9-8f49-d6945af3dc30.png)
+
+## Remote Remove
+
+Use the git remote rm command to remove a remote URL from your repository. The git remote rm command takes one argument.
+
+![remove](https://user-images.githubusercontent.com/54865943/66276250-447b9e00-e85f-11e9-85de-d10497c78aaa.png)
+
+## Remote Show
+
+To see which remote servers you have configured, you can run the git remote command. It lists the shortnames of each 
+remote handle you’ve specified.
+
+![show](https://user-images.githubusercontent.com/54865943/66275744-b05b0800-e859-11e9-92a0-2d4d60560a87.png)
+
