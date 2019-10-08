@@ -1,0 +1,5 @@
+## How the usage of Git, Docker, Automated Testing, and Continuous Integration can improve the productivity and competitiveness of a company ?
+
+Adopting Continuous Integration / Continuous Delivery practices enable teams to adapt their software on-demand to meet user feedback, market shifts, and any adjustments to the changing business requirements.
+
+Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build (including test) to detect integration errors as quickly as possible. Many teams find that this approach leads to significantly reduced integration problems and allows a team to develop cohesive software more rapidly. Continuous integration removes one of the biggest barriers to frequent deployment. Frequent deployment is valuable because it allows your users to get new features more rapidly, to give more rapid feedback on those features, and generally become more collaborative in the development cycle.
