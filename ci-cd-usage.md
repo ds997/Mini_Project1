@@ -12,3 +12,13 @@ Continuous Integration is a software development practice where members of a tea
 * __Automated Testing:__ Once the new piece of software is developed, it needs to be built and then thoroughly tested to ensure it meets all the initial requirements. There are various automated testing tools like Selenium ,Mocha etc that can be used to ensure an application looks and behaves as expected and covers everything from functional tests to performance tests. 
 
 * __Deployment:__ In the final stage, the built piece of software is rolled out into production. CD requires this process to be automated, which ensures a reliable delivery to users. This is where Docker comes in, Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+
+
+### Here are five aspects of using Git, Docker, Automated Testing, and Continuous Integration that provides companies a competitive edge :
+
+
+**1. Faster Release Cycles:** Speeding up the build and deploy cycle allows teams to get new features into production quicker, and reduce the ime to market a product.
+
+**2. Reduced Risk:** By releasing new updates or features continuously, the risk of bugs in production is also reduced dramtically.
+
+**3. Lower Costs:** Adopting a continuous development model lowers the costs by eliminating many of the fixed costs associated with building and testing changes to the application. For example, automated environment provisioning will reduce the costs associated with maintaining your own test infrastructure. By continuously committing your code, you’ll spend less time (and therefore money) on fixing bugs.
