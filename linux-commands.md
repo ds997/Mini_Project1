@@ -25,3 +25,18 @@ mkdir NewDirectory will make a new directory called NewDirectory.
 ## 3. cp - Copy
  
  The cp command is a command-line utility for copying files and directories.
+
+## 4. pwd - Present Working Directory
+ 
+ - path
+
+Type pwd to display the path to your current directory. 
+
+![This is cd 2 example](https://github.com/ds997/miniproject1-601-ds/blob/master/resources/pwd.png)
+
+
+## 5. mv - Move
+
+Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use ‘mv text new’.
+
+![This is cd 2 example](https://github.com/ds997/miniproject1-601-ds/blob/master/resources/mv.png)
