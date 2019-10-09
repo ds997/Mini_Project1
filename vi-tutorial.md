@@ -1,6 +1,9 @@
 # VI(Visual Editor) Walkthrough
 
-VI is a screen-oriented text editor originally created for the Unix operating system. Following are the commands for vi to get started.
+VI is a screen-oriented text editor originally created for the Unix operating system. 
+vi are case-sensitive. Be sure not to use a capital letter in place of a lowercase letter; the results will not be what you expect.
+
+Following are the commands for vi to get started.
 
 ## Open a file using vi
 
@@ -39,7 +42,7 @@ This is the mode you use to type or **insert** text.
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 
-![Image of write and quit in vi](https://github.com/ds997/miniproject1-601-ds/blob/master/resources/write-quit-vi.png)
+![Image of write and quit in vi](https://github.com/ds997/mini_project1/blob/master/resources/write-quit-vi.png)
 
 
 | Command | Description |
@@ -76,6 +79,22 @@ To copy(Yank) or paste in vi use the following code:
 | `yy` | yank a line |
 | `yw` | yank word |
 | `y$` | yank to end of line |
+
+
+## Delete text
+
+The following commands allow you to delete text.
+
+| Command        | Description |
+| -----------   | ----------- |
+| `dd`  | Delete entire current line |
+| `Ndd or dNd`  | Delete N lines, beginning with the current line; e,g. 5dd deletes 5 lines |
+| `dNw`   | Delete N words beginning with character under cursor. e.g. d5w deletes 5 words |
+
+
+## Source
+ 
+ * https://www.cs.colostate.edu/helpdocs/vi.html
 
 ## Contributors
 **Divyanshu Sachdeva - ds997**
