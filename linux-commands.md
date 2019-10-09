@@ -1,10 +1,14 @@
 # Basic linux commands to access Filesystem.
 
+* **Filesystem** - Alternatively referred to as file management and sometimes abbreviated as FS, a file system is a method of organizing and retrieving files from a storage medium, such as a hard drive. File systems usually consist of files separated into groups called directories. Directories can contain files or additional directories.
+
+* Without a file management, all files would have no organization and it would be impossible for a file with the same name to exist. Files are most often managed in a hierarchy, which allows you to view files in the current directory and then navigate into any subdirectories.
+
 ##  1. cd - Change Directory
 
 * cd followed by a directory or file path will take you inside that directory(folder).
 
--Below is the example for directly going to specfied folder
+-Below is the example for directly going to specified folder
 
 ![this is cd example](https://github.com/ds997/mini_project1/blob/master/resources/cd.png)
 
@@ -82,6 +86,11 @@ For example: **divyanshuhome** is my home directory in the below screenshot.
  
  Through up and down arrown key user can span to history of commands
  By up arrow the previous command you entered in the terminal shows up on the command line.
+
+
+ ## Source 
+
+  * https://www.computerhope.com/jargon/f/filesyst.htm
 
 
  ## Contributor
