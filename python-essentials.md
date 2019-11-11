@@ -212,12 +212,42 @@ In general, the separator character is called a delimiter, and the comma is not 
 include the tab (\t), colon (:) and semi-colon (;) characters. Properly parsing a CSV file requires us to know which delimiter is being used.
 
 
+**16. Reading CSV Files**
+
+Reading from a CSV file is done using the reader object. The CSV file is opened as a text file with Python’s built-in open() function,
+which returns a file object. This is then passed to the reader, which does the heavy lifting.
+
+```
+Here’s the employee_birthday.txt file:
+name,department,birthday month
+John Smith,Accounting,November
+Erica Meyers,IT,March
+```
+
+Here’s code to read it:
+
+```
+import csv
+
+with open('employee_birthday.txt') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print(f'Column names are {", ".join(row)}')
+            line_count += 1
+        else:
+            print(f'\t{row[0]} works in the {row[1]} department, and was born in {row[2]}.')
+            line_count += 1
+    print(f'Processed {line_count} lines.')
+```
+
 ## Source
 * https://docs.python.org/3/tutorial/classes.html
 * http://www.blackwasp.co.uk/gofpatterns.aspx
 * https://www.pythonlikeyoumeanit.com/Module2_EssentialsOfPython/Introduction.html
 * https://beginnersbook.com/2018/03/python-constructors-default-and-parameterized/
-
+* https://realpython.com/python-csv/#:~:targetText=Reading%20CSV%20Files%20With%20csv,which%20does%20the%20heavy%20lifting.
 
 
 
