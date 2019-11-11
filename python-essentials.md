@@ -64,8 +64,17 @@ class ClassName:
     <statement-N>
 ```
 
+**5. Object:-**
+Object is simply a collection of data (variables) and methods (functions) that act on those data. And, class is a blueprint for the object. The class object could be used to access different attributes.
+It can also be used to create new object instances (instantiation) of that class. The procedure to create an object is similar to Function  call.
 
+```
+x = MyClass()
+```
 
+* https://docs.python.org/3/tutorial/classes.html
+* http://www.blackwasp.co.uk/gofpatterns.aspx
+* https://www.pythonlikeyoumeanit.com/Module2_EssentialsOfPython/Introduction.html
 
 
 
