@@ -125,6 +125,41 @@ Offspring1.static() # prints Example
 Offspring2.static() # prints Offspring2
 
 ```
+**7. Property:-**
+
+Python has a great concept called property which makes the life
+of an object oriented programmer much simpler.
+Everything in Python is an object, and almost everything has attributes and methods. In python, functions too are objects.
+So they have attributes like other objects. 
+All functions have a built-in attribute __doc__, which returns the doc string defined in the function source code. 
+We can also assign new attributes to them, as well as retrieve the values of those attributes.
+
+For handling attributes, Python provides us with “getattr” and “setattr”, a function that takes three arguments. 
+There is no difference between “setattr” and using the dot-notation on the left side of the = assignment operator:
+
+The given code can be written as follows to assign and retrieve attributes.
+
+```
+def foo():
+    pass
+setattr(foo, 'age', 23 )
+setattr(foo, 'name', 'John Doe' )
+print(getattr(foo, 'age'))
+foo.gender ='male'
+print(foo.gender)
+print(foo.name)
+print(foo.age)
+
+output
+
+C:/Users/TutorialsPoint1/~.py
+23
+male
+John Doe
+23
+
+```
+
 
 
 
