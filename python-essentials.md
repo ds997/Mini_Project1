@@ -231,6 +231,51 @@ except:
     print('An error occurred.')
 
 ``` 
+**10. Unittest**
+The unittest module provides a rich set of tools for constructing
+and running tests. This section demonstrates that a small 
+subset of the tools suffice to meet the needs of most users.
+
+Here is a short script to test three string methods:
+
+```
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
+        # check that s.split fails when the separator is not a string
+        with self.assertRaises(TypeError):
+            s.split(2)
+
+if __name__ == '__main__':
+    unittest.main()
+
+```
+A testcase is created by subclassing unittest.TestCase. The three individual tests are defined with methods whose names start with the letters test. 
+This naming convention informs the test runner about which methods represent tests.
+
+The crux of each test is a call to assertEqual() to check for an expected result; assertTrue() or assertFalse() to verify a condition; or assertRaises() to verify that a specific exception gets raised. These methods are used
+instead of the assert statement so the test runner can accumulate all test results and produce a report
+
+The final block shows a simple way to run the tests. unittest.main() provides a command-line interface to the test script.
+```
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+``` 
+
 
 
 
