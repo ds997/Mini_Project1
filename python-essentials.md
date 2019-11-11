@@ -71,10 +71,60 @@ It can also be used to create new object instances (instantiation) of that class
 ```
 x = MyClass()
 ```
+**6. Static:-**
+All variables defined on the class level in Python are 
+considered static.See this example:
 
+```
+class Example:
+    staticVariable = 5 # Access through class
 
+print Example.staticVariable # prints 5
 
+# Access through an instance
+instance = Example()
+print instance.staticVariable # still 5
 
+# Change within an instance
+instance.staticVariable = 6
+print instance.staticVariable # 6
+print Example.staticVariable # 5
+
+# Change through
+class Example.staticVariable = 7
+print instance.staticVariable # still 6
+print Example.staticVariable # now 7
+
+```
+Static Method
+
+Method decorated with this decorator shares with the class only the 
+namespace. Note that, no arguments are mandatory in the method definition. 
+Static method can access classes static variables.
+
+```
+class Example:
+    name = "Example"
+
+    @staticmethod
+    def static():
+        print "%s static() called" % Example.name
+
+class Offspring1(Example):
+    name = "Offspring1"
+
+class Offspring2(Example):
+    name = "Offspring2"
+
+    @staticmethod
+    def static():
+        print "%s static() called" % Offspring2.name
+
+Example.static() # prints Example
+Offspring1.static() # prints Example
+Offspring2.static() # prints Offspring2
+
+```
 
 
 
