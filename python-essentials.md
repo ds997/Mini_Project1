@@ -1,4 +1,4 @@
-##Python Essential Terminologies
+#Python Essential Terminologies
 **1. How Python uses Indentation to control Flow:-**
 Control flow in your code is to affect the order in which the code in your program is executed. Up until this point in the course, you have seen (and hopefully written) code that executes linearly.
 
