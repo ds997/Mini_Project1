@@ -168,9 +168,30 @@ class TimeWaster:
 
 ```
 
+**14. Extend Class**
 
+Extend class is a class that has extended function from another class.
 
+Inheritance is a concept in object-oriented programming in which a class derives (or inherits) attributes and behaviors
+from another class without needing to implement them again.
 
+```
+    
+    def __init__(self, name):
+        self.name = name
+        
+    def say_hello(self):
+        print("Hi, I am " + self.name)
+        
+class PersonalRobot(Robot):
+    pass
+x = Robot("Jake")
+y = PersonalRobot("Keith")
+print(x, type(x))
+print(y, type(y))
+y.say_hello()
+
+```
 
 ## Source
 * https://docs.python.org/3/tutorial/classes.html
