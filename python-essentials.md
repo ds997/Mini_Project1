@@ -193,6 +193,25 @@ y.say_hello()
 
 ```
 
+**15. CSV Files**
+
+A CSV file (Comma Separated Values file) is a type of plain text file that uses specific structuring to arrange tabular data.
+Because it’s a plain text file, it can contain only actual text data—in other words, printable ASCII or Unicode characters.
+
+The structure of a CSV file is given away by its name. Normally, CSV files use a comma to separate each specific data value. 
+Here’s what that structure looks like:
+
+```
+column 1 name,column 2 name, column 3 name
+first row data 1,first row data 2,first row data 3
+second row data 1,second row data 2,second row data 3
+...
+```
+
+In general, the separator character is called a delimiter, and the comma is not the only one used. Other popular delimiters 
+include the tab (\t), colon (:) and semi-colon (;) characters. Properly parsing a CSV file requires us to know which delimiter is being used.
+
+
 ## Source
 * https://docs.python.org/3/tutorial/classes.html
 * http://www.blackwasp.co.uk/gofpatterns.aspx
