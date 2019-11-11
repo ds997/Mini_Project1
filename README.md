@@ -15,6 +15,7 @@
 5. [Git Workflow](gitflow.md)
 6. [Git Setup Tutorial](stepwise-git-tuitorial.md)
 7. [Git Concepts](understanding-git-concepts.md)
+8. [Getting Started With Python](python-essentials.md)
 
 
 ## Change Log
@@ -28,3 +29,4 @@
 - [x] Description of Forking vs cloning, Pull Request, Adding collaborator to github repo **sb2344**
 - [x] Added tutorial of git commands and terminologies **js2547**
 - [x] Explained Git flow **js2547**
+- [ ] Definition & Examples for Constructors, Factory, Decorators, Extend Files, CSV Files, Reading CSV Files
