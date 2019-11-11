@@ -193,7 +193,44 @@ class Car:
            def turn(self):
                   pass
 ```
+**9. Exception:-**
 
+An exception is an error that happens during execution of a program. When that
+error occurs, Python generate an exception that can be handled, which avoids your
+program to crash.
+
+Exceptions are convenient in many ways for handling errors and special conditions
+in a program. When you think that you have a code which can produce an error then
+you can use exception handling.
+
+You can raise an exception in your own program by using the raise exception
+statement.
+
+Raising an exception breaks current code execution and returns the exception
+back until it is handled.
+
+Exception Error Example
+
+```
+except IOError:
+    print('An error occurred trying to read the file.')
+
+except ValueError:
+    print('Non-numeric data found in the file.')
+
+except ImportError:
+    print "NO module found"
+
+except EOFError:
+    print('Why did you do an EOF on me?')
+
+except KeyboardInterrupt:
+    print('You cancelled the operation.')
+
+except:
+    print('An error occurred.')
+
+``` 
 
 
 
