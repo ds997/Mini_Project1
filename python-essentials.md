@@ -159,6 +159,40 @@ John Doe
 23
 
 ```
+**8. Method:-**
+Python method is a label that you can call on an object;
+it is a piece of code to execute on that object. But before
+we begin getting any deeper,
+let’s take a quick look at classes and objects and wherever
+we encounter any doubt in the Python Method
+A Python Class is an Abstract Data Type (ADT). Think of it like a blueprint. A rocket made from referring to its blueprint is according to plan. It has all the properties mentioned in the plan, and behaves accordingly. Likewise, a class is a blueprint for an object. To take an example, we would suggest thinking of a car. The class ‘Car’ contains properties like brand, model, color, fuel, and so. It also holds behavior like start(), halt(), drift(), speedup(), and turn(). An object Hyundai Verna has the following properties then.
+
+brand: ‘Hyundai’
+
+model: ‘Verna’
+
+color: ‘Black’
+
+fuel: ‘Diesel’
+
+```
+class Car:
+          def __init__(self,brand,model,color,fuel):
+                  self.brand=brand
+                  self.model=model
+                  self.color=color
+                  self.fuel=fuel
+           def start(self):
+                  pass
+           def halt(self):
+                  pass
+           def drift(self):
+                  pass
+           def speedup(self):
+                  pass
+           def turn(self):
+                  pass
+```
 
 
 
